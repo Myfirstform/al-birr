@@ -39,20 +39,22 @@ body{
     justify-content: center;
     margin-right: 80%;
     margin-bottom: 40%;
-    background: rgba(0, 0, 0, 0.575);
-    /* border: solid #fff 2px; */
+    /* background: rgba(0, 0, 0, 0.575); */
     border-radius: 20px;
     padding: 5px;
 }
 .firstpage .links img{
-    width: 25px;
+    width: 30px;
     justify-content: left;
+    padding-left: 7px;
+   
+
 }
 .firstpage .links a{
     text-align: left;    
 }
 .firstpage .links:hover{
-    background: #fce8d3;
+    background: #BBBBBB;
     transition: 0.3s;
 }
 
@@ -65,16 +67,24 @@ body{
     font-weight: lighter;
     font-family: sans-serif;
     margin-left: 130%;
+    
 }
 
 .firstpage #link2 a{
     text-decoration: none;
     color: #fff;
-    padding-left: 50px;
+    margin-left: 20px;
+    margin-right:20px;
+    font-size: 10px;
+    padding:5px;
+    border: rgba(255, 255, 255, 0.637) solid 1px;
+    border-radius: 10px;
 }
 .firstpage #link2 a:hover{
-    color: #ffdab3;
-    transition: 0.5s;
+    color: #BBBBBB;
+    transition: 0.3s;
+    text-decoration: underline;
+    
 }
 
 .firstpage h1{
@@ -110,12 +120,12 @@ body{
     }
   } */
 .firstpage h1 .span1{
-    color: #ffdab3;
+    color: #FFFFFF;
     text-shadow: rgba(0, 0, 0, 0.747) 5px 5px 5px;
     animation-delay: 0.5s;
 }
 .firstpage h1 .span2{
-    color: #ffffff;
+    color: #BBBBBB;
     font-size: 50%;
     text-shadow: rgba(0, 0, 0, 0.747) 2px 2px 2px;
     animation-delay: 1s;
@@ -155,8 +165,8 @@ body{
     padding: 10px 20px 10px 20px;
     /* background: rgba(0, 0, 0, 0.76);
     color: rgba(255, 255, 255, 0.89); */
-    background: #ffdab3;
-    color: rgba(0, 0, 0, 0.829);
+    background: #FFFFFF;
+    color: #0a0a0ad3;
     text-align: center;
     font-family: sans-serif;
     width:fit-content;
@@ -188,19 +198,21 @@ button:hover .firstpage{
         flex-direction:row ;
         justify-content: center;
         margin-right: 0;
-        margin-top: 150%;
-        background: rgba(0, 0, 0, 0.705);
+        margin-top: 180%;
         border-radius: 20px;
         padding: 5px;
     }
+    .firstpage .links img{
+        width: 50px;
+    }
     .firstpage #link2{
         background:transparent;
-        margin-bottom: 320%;
+        margin-bottom: 350%;
         margin-left: 0%;
     }
     .firstpage #link2 a{
         padding-left: 10px;
         padding-right: 10px;
-        color: rgba(255, 255, 255, 0.795);
+        color: #ffffff;
     }
 }
