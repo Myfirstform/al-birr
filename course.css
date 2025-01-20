@@ -1,0 +1,125 @@
+/* Reset styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fef5f5;
+    color: #333;
+  }
+  
+  .services-section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .services-header h2 {
+    color: #d93636;
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .services-header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #a61212;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 280px;
+    /* text-align: left; */
+    position: relative;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.3s ease;
+
+  }
+
+  .service-card:hover {
+    background-color: #faf3d2;
+  }
+  
+  .service-card:hover h3,
+  .service-card:hover p {
+    color: rgb(0, 0, 0);
+  }
+  .service-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .service-card .icon {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card .icon img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .service-card h3 {
+    font-size: 18px;
+    color: #a61212;
+    margin: 20px 20px 10px;
+  }
+  
+  .service-card p {
+    font-size: 14px;
+    color: #666;
+    margin: 0 20px 20px;
+  }
+  
+  .view-services-btn {
+    background-color: #a61212;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .view-services-btn:hover {
+    background-color: #a61212;
+  }
+  
+  
+.service-card {
+    text-align: justify;
+}
+.service-card button{
+    background: #a61212;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 6px 23px;
+    font-size: 16px;
+}
+.service-card .course-btn {
+    text-align: center;
+}
+
+.service-card .course-btn button {
+    margin: 0 auto;
+    display: block;
+}
+.course-btn{
+    margin: 25px;
+}

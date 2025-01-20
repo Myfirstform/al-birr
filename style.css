@@ -9,7 +9,7 @@ body{
     padding: 0;
     margin: 0;
     height: 100vh;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.589) 50%, rgba(0, 0, 0, 0.589) 50%),
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.719) 50%, rgba(0, 0, 0, 0.719) 50%),
                 url(AL\ BIRR.jpg) no-repeat center center ;
     background-size: cover;
     display: flex;
@@ -18,6 +18,7 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
 }
+
 .firstpage .logo{
     display: flex;
     flex-direction: column;
@@ -33,31 +34,51 @@ body{
 
 .firstpage .links{
     display: flex;
-    flex-direction:column ;
+    flex-direction:row;
     position: fixed;
     justify-content: center;
-    margin-right: 90%;
+    margin-right: 80%;
+    margin-bottom: 40%;
     background: rgba(0, 0, 0, 0.575);
     /* border: solid #fff 2px; */
     border-radius: 20px;
     padding: 5px;
 }
 .firstpage .links img{
-    width: 30px;
+    width: 25px;
     justify-content: left;
 }
 .firstpage .links a{
     text-align: left;    
 }
 .firstpage .links:hover{
-    background: #fff;
+    background: #fce8d3;
     transition: 0.3s;
 }
 
+.firstpage #link2{
+    color: #fff;
+    background: transparent;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-left: 130%;
+}
 
+.firstpage #link2 a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 50px;
+}
+.firstpage #link2 a:hover{
+    color: #ffdab3;
+    transition: 0.5s;
+}
 
 .firstpage h1{
-    color: white;
+    color: rgba(0, 0, 0, 0.932);
     font-size: 400%;
     text-align: center;
     line-height: 50px;
@@ -89,20 +110,29 @@ body{
     }
   } */
 .firstpage h1 .span1{
-    color: #fff;
+    color: #ffdab3;
     text-shadow: rgba(0, 0, 0, 0.747) 5px 5px 5px;
     animation-delay: 0.5s;
 }
 .firstpage h1 .span2{
-    color: rgb(228, 212, 69);
+    color: #ffffff;
     font-size: 50%;
     text-shadow: rgba(0, 0, 0, 0.747) 2px 2px 2px;
     animation-delay: 1s;
 }
 
+.firstpage .imgage{
+    display: flex;
+    flex-direction: column;
+}
+.firstpage .image img{
+    width: 150px;
+    flex-direction: row;
+}
+
 .know{
-    width: 60%;
-    height: 50px;
+
+    padding: 30px;
     background: rgba(0, 0, 0, 0.575);
     flex-direction: row;
     position: fixed;
@@ -122,9 +152,11 @@ body{
   }
 
 .btn button{
-    padding: 7px;
-    background: rgba(0, 0, 0, 0.76);
-    color: rgba(255, 255, 255, 0.89);
+    padding: 10px 20px 10px 20px;
+    /* background: rgba(0, 0, 0, 0.76);
+    color: rgba(255, 255, 255, 0.89); */
+    background: #ffdab3;
+    color: rgba(0, 0, 0, 0.829);
     text-align: center;
     font-family: sans-serif;
     width:fit-content;
@@ -135,7 +167,7 @@ body{
     /* border: solid #fff 2px; */
 }
 button:hover{
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.61);
     color: rgba(0, 0, 0, 0.76);
     transition: 0.3s;
     /* font-size: 15px; */
@@ -156,9 +188,19 @@ button:hover .firstpage{
         flex-direction:row ;
         justify-content: center;
         margin-right: 0;
-        margin-top: 100%;
+        margin-top: 150%;
         background: rgba(0, 0, 0, 0.705);
         border-radius: 20px;
         padding: 5px;
+    }
+    .firstpage #link2{
+        background:transparent;
+        margin-bottom: 320%;
+        margin-left: 0%;
+    }
+    .firstpage #link2 a{
+        padding-left: 10px;
+        padding-right: 10px;
+        color: rgba(255, 255, 255, 0.795);
     }
 }
