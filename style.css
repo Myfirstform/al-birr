@@ -17,6 +17,7 @@ body{
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    
 }
 
 .firstpage .logo{
@@ -38,7 +39,7 @@ body{
     position: fixed;
     justify-content: center;
     margin-right: 80%;
-    margin-bottom: 40%;
+    margin-bottom: 500px;
     /* background: rgba(0, 0, 0, 0.575); */
     border-radius: 20px;
     padding: 5px;
@@ -66,7 +67,7 @@ body{
     flex-direction: row;
     font-weight: lighter;
     font-family: sans-serif;
-    margin-left: 130%;
+    margin-left: 145%;
     
 }
 
@@ -76,14 +77,14 @@ body{
     margin-left: 20px;
     margin-right:20px;
     font-size: 10px;
-    padding:5px;
+    padding:7px;
     border: rgba(255, 255, 255, 0.637) solid 1px;
     border-radius: 10px;
 }
 .firstpage #link2 a:hover{
-    color: #BBBBBB;
+    /* color: #BBBBBB; */
     transition: 0.3s;
-    text-decoration: underline;
+    background: rgba(0, 0, 0, 0.664);
     
 }
 
@@ -198,16 +199,18 @@ button:hover .firstpage{
         flex-direction:row ;
         justify-content: center;
         margin-right: 0;
-        margin-top: 180%;
+        margin-top: 250%;
         border-radius: 20px;
         padding: 5px;
+        overflow: hidden;
     }
     .firstpage .links img{
         width: 50px;
+        flex-wrap: wrap;
     }
     .firstpage #link2{
         background:transparent;
-        margin-bottom: 350%;
+        margin-top: -350px;
         margin-left: 0%;
     }
     .firstpage #link2 a{
