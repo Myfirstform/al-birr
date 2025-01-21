@@ -60,6 +60,7 @@ body{
 }
 
 .firstpage #link2{
+    height: 25px;
     color: #fff;
     background: transparent;
     list-style: none;
@@ -76,9 +77,9 @@ body{
     color: #fff;
     margin-left: 20px;
     margin-right:20px;
-    font-size: 10px;
+    font-size: 12px;
     padding:7px;
-    border: rgba(255, 255, 255, 0.637) solid 1px;
+    border: rgba(255, 255, 255, 0.637) solid 2px;
     border-radius: 10px;
 }
 .firstpage #link2 a:hover{
