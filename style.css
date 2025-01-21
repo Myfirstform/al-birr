@@ -210,7 +210,11 @@ button:hover .firstpage{
     }
     .firstpage #link2{
         background:transparent;
+
         margin-top: -230px;
+
+        margin-top: -300px;
+
         margin-left: 0%;
     }
     .firstpage #link2 a{
