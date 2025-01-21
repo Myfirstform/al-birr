@@ -210,12 +210,13 @@ button:hover .firstpage{
     }
     .firstpage #link2{
         background:transparent;
-        margin-top: -350px;
+        margin-top: -230px;
         margin-left: 0%;
     }
     .firstpage #link2 a{
         padding-left: 10px;
         padding-right: 10px;
         color: #ffffff;
+        
     }
 }
