@@ -44,24 +44,25 @@ body{
     border-radius: 20px;
     padding: 5px;
 }
-.firstpage .links img{
-    width: 30px;
+.firstpage .links i{
+    font-size:25px;
     justify-content: left;
-    padding-left: 7px;
-   
+    padding-left: 15px;
+    color: #ffffff;
 
 }
 .firstpage .links a{
     text-align: left;    
 }
-.firstpage .links:hover{
-    background: #BBBBBB;
+.firstpage .links i:hover{
+    /* background: #BBBBBB; */
+    color: #ffffff60;
     transition: 0.3s;
 }
 
 .firstpage #link2{
     height: 25px;
-    color: #fff;
+    /* color: #fff; */
     background: transparent;
     list-style: none;
     display: flex;
@@ -74,12 +75,13 @@ body{
 
 .firstpage #link2 a{
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     margin-left: 20px;
     margin-right:20px;
-    font-size: 12px;
+    /* background: rgba(255, 255, 255, 0.466); */
+    font-size: 14px;
     padding:7px;
-    border: rgba(255, 255, 255, 0.637) solid 2px;
+    /* border: rgba(255, 255, 255, 0.637) solid 2px; */
     border-radius: 10px;
 }
 .firstpage #link2 a:hover{
@@ -200,28 +202,22 @@ button:hover .firstpage{
         flex-direction:row ;
         justify-content: center;
         margin-right: 0;
-        margin-top: 250%;
+        margin-top: 280%;
         border-radius: 20px;
         padding: 5px;
-        overflow: hidden;
     }
-    .firstpage .links img{
-        width: 50px;
-        flex-wrap: wrap;
-    }
+    
     .firstpage #link2{
         background:transparent;
-
         margin-top: -230px;
-
         margin-top: -300px;
-
         margin-left: 0%;
     }
     .firstpage #link2 a{
-        padding-left: 10px;
-        padding-right: 10px;
+        /* padding-left: 10px;
+        padding-right: 10px; */
         color: #ffffff;
-        
+        font-size: 14px;
+        /* border: rgba(255, 255, 255, 0.637) solid 2px; */
     }
 }
