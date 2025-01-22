@@ -25,16 +25,18 @@ body {
     color: #a61212;
   }
 
-  .services-header a{
+  .services-header button{
+    width: 100px;
     text-decoration: none;
     color:#a61212;
     background: rgba(0, 0, 0, 0.116);
     padding: 5px;
     float: left;
-    margin-top: -30px;
+    border: none;
+    /* margin-top: -30px; */
   }
 
-  .services-header a:hover{
+  .services-header button:hover{
     background: rgba(0, 0, 0, 0.295);
     transition: 0.3s;
   }
