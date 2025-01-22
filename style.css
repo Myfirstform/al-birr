@@ -216,7 +216,7 @@ button:hover .firstpage{
     }
     .firstpage{
         padding: 30px;
-        height:100vh;
+        height:95vh;
         width: 95%;
     }
     .firstpage h1{
@@ -226,7 +226,7 @@ button:hover .firstpage{
         flex-direction:row ;
         justify-content: center;
         margin-right: 0;
-        margin-top: 280%;
+        margin-top: 260%;
         border-radius: 20px;
         padding: 5px;
     }
