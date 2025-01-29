@@ -22,7 +22,6 @@
     <meta name="twitter:url" content="https://www.darus-salam.in/">
     <meta name="twitter:type" content="website">
 
-    <script src="node.js"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
@@ -33,47 +32,133 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-<div class="options">
-    <li> <a href="#">HOME</a></li>
-    <li> <a href="">ADMISSION</a></li> 
-    <li> <a href="ourservices.html">EXPLORE</a></li>  
-    <li> <a href="tel:+919746675758">CONTACT</a></li> 
-</div>
-    <div class="firstpage">
+
+
+<div class="firstpage" id="firstpage">
+
         
-        <div class="logo">
-        <img src="pics/ALBIRR LOGO new.png" alt="">
+    <!-- <div class="containernav">
+        <button class="toggle-button" id="toggleButton">☰ MENU</button>
+        <nav class="navbar" id="navbar">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </div> -->
+
+    <div class="links1">
+
+        <a href="https://www.instagram.com/darussalam_banath/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@shukoorthennala"><i class="fab fa-youtube"></i></a>
+        <a href="https://wa.me/9197466 75758?"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61572471116260"><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
     </div>
 
-        <div class="links">
+    <div class="navbtn" id="navbtn">
+        <button class="navbar-toggle" id="navbarToggle">
+          ☰
+        </button>
+    </div>
 
-              <a href="https://www.instagram.com/darussalam_banath/"><i class="fab fa-instagram"></i></a>
-              <a href="https://www.youtube.com/@shukoorthennala"><i class="fab fa-youtube"></i></a>
-              <a href="https://wa.me/9197466 75758?"><i class="fab fa-whatsapp"></i></a>
-              <a href="https://www.facebook.com/profile.php?id=61572471116260"><i class="fab fa-facebook"></i></a>
-              <a href=""><i class="fab fa-twitter"></i></a>
-          </div>
-          <div class="links" id="link2">
-            
-                <li> <a href="#">HOME</a></li>
-                <li> <a href="">ADMISSION</a></li> 
-                <li> <a href="ourservices.html">EXPLORE</a></li>  
-                <li> <a href="tel:+97466 75758">CONTACT</a></li> 
 
-            
-          </div>
+    <div class="links2" id="links2">
+      
+          <li> <a href="#">HOME</a></li>
+          <li> <a href="">ADMISSION</a></li> 
+          <li> <a href="ourservices.html">COURCES</a></li>  
+          <li> <a href="tel:+97466 75758">CONTACT</a></li> 
+    </div>
 
+    
+
+        <div class="contents">
+        <div class="logo" id="logo">
+        <img src="pics/ALBIRR LOGO new.png" alt="">
+        </div>
 
         <h1><span class="span1"> DARUSSALAM</span><br><span class="span2">ENGLISH MEDIUM</span> </h1>
         <div class="btn">
             <a href="ourservices.html"><button>Explore</button></a>
         </div>
     </div>
+    </div>
+
+
+<div class="about" id="about">
+        <div class="text" id="text">
+        <h1 id="abouthead">About</h1>
+        <p style="font-family: sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta molestias voluptas vero excepturi consequatur est dolor quisquam aut asperiores! Ipsa, quibusdam esse non atque repellat odit enim sed accusantium aut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nihil ex inventore sequi amet id, odit unde, culpa consequuntur ut distinctio vitae omnis placeat. Veritatis optio obcaecati non qui? Consequuntur!</p>
+        </div>
+        <div class="names" id="names">
+            <ul>
+            <li>ALBIRR PRESHOOL</li>
+            <li>FADHILA COURCE</li>
+            <li>HEIGHER SECONDERY MADRASA</li>
+            <li>ASMI</li>
+            <li>ASMI ll</li>
+        </ul>
+
+        </div>
+    </div>
+
+    <!-- DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD -->
+
+    <div class="cources">
+        <section class="services-section">
+            <div class="services-header">
+              
+        
+              <h1>- Our Courses -</h1>
+            </div>
+            <div class="services-container">
+              <!-- Card 1 -->
+              <div class="service-card">
+                <img src="pics/albirr.png" alt="Construction">
+                <!-- <div class="icon"><img src="construction-icon.png" alt="Construction Icon"></div> -->
+                <h3>AL BIRR PRE SCHOOL</h3>
+                <p class="course-desc">Al Birr primary school nurtures young minds with knowledge and faith, fostering a love for learning alongside strong moral values. It provides a foundation of academic excellence and Islamic teachings, shaping confident, kind, and disciplined individuals.</p>
+                <div class="course-btn">
+                    <!-- <button>Apply now</button> -->
+                </div>
+            </div>
+              <!-- Card 2 -->
+              <div class="service-card">
+                <img src="pics/fadhila.png" alt="Infrastructure">
+                <!-- <div class="icon"><img src="infrastructure-icon.png" alt="Infrastructure Icon"></div> -->
+                <h3>FADHILA COLLEGE</h3>
+                <p>Fadhila College empowers young women with knowledge and faith, blending academic excellence with Islamic values. It fosters confidence, discipline, and spiritual depth, shaping future leaders rooted in Islamic principles.
+              </div>
+              <!-- Card 3 -->
+              <div class="service-card">
+                <img src="pics/madrasa.png" alt="Railway">
+                <!-- <div class="icon"><img src="railway-icon.png" alt="Railway Icon"></div> -->
+                <h3>HS MADRASA</h3>
+                <p>Higher Secondary Madrasa serves as a cornerstone of holistic education, combining advanced academic studies with in-depth Islamic teachings. It nurtures intellectual growth, spiritual wisdom, and moral character, preparing students to excel in both worldly and religious pursuits.
+              </div>
+              <!-- Card 4 -->
+              <div class="service-card">
+                <img src="pics/asmi.jpg" alt="Agriculture">
+                <!-- <div class="icon"><img src="agriculture-icon.png" alt="Agriculture Icon"></div> -->
+                <h3>ASMI COURSE</h3>
+                <p>ASMI COURSE lays the foundation for a bright future by integrating quality education with Islamic values. It nurtures young hearts with knowledge, faith, and good character, fostering a love for learning and a deep connection to their religion.
+              </div>
+               <!-- Card 4 -->
+               <div class="service-card">
+                <img src="pics/asmi 2.png" alt="Agriculture">
+                <!-- <div class="icon"><img src="agriculture-icon.png" alt="Agriculture Icon"></div> -->
+                <h3>ASMI ll</h3>
+                <p>ASMI COURSE provides a nurturing environment where young learners grow in knowledge and faith. It fosters moral values, curiosity, and a love for Islam, laying a strong foundation for their future.
+              </div>
+            </div>
+          </section>
+    </div>
 
    
 
 
     
-    
+    <script src="script.js"></script>
 </body>
 </html>
