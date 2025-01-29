@@ -213,11 +213,11 @@ button:hover .firstpage{
     .firstpage .links1{
         flex-direction:row ;
         justify-content: start;
-        font-size: 50px;
-        padding: 5px;
+        font-size: 20px;
+        margin-top: -5px;
     }
     .firstpage .links1 i{
-        /* font-size: 30px; */
+        font-size: 20px;
     }
     
     .firstpage .links2{

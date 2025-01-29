@@ -4,6 +4,7 @@ const navbar = document.getElementById('links2');
 const body2 = document.getElementById('firstpage');
 const body = document.body;
 // Add click event listener to toggle the navbar
+toggleButton.style.fontSize = '20px';
 toggleButton.addEventListener('click', () => {
   navbar.style.display = navbar.style.display === 'flex' ? 'none' : 'flex';
   navbar.style.transition ='5s ease-out';
