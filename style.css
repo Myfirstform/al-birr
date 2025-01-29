@@ -206,8 +206,8 @@ button:hover .firstpage{
         width: 100%;
     }
     .firstpage h1{
-        font-size:3em;
-        width: 100%;
+        font-size:45px;
+        /* width: 100%; */
         padding: 10px;
     }
     .firstpage .links1{
