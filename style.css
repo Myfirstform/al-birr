@@ -432,6 +432,17 @@ button:hover .firstpage{
 .last{
     height: 90vh;
 }
+.last h1{
+    color: #FFFFFF;
+    
+    margin: 10px;
+    padding: 20px;
+}
+@media (max-width:500px) {
+    .last{
+        height: 60vh;
+    }
+}
 .address{
     background: #061ef573;
     background: transparent;
@@ -442,8 +453,8 @@ button:hover .firstpage{
     padding: 20px;
     color: white;
     box-sizing: border-box;
-    width: 45%;
-    line-height: 50px;
+    /* width: 45%; */
+    line-height: 40px;
 }
 .address p{
     font-weight: lighter;
