@@ -31,6 +31,9 @@ body{
     padding: 10px;
     text-align: right;
 }
+.navbtn .navbar-toggle{
+    background: tomato;
+}
 
 
 
@@ -247,10 +250,11 @@ button:hover .firstpage{
         justify-content: end;
         align-content: flex-start;
     }
-    .navbtn button{
+    .navbtn .navbarToggle{
         font-size: 30px;
         background-color: transparent;
         color: #ffff;
+        
     }
 }
 .about{
@@ -305,6 +309,7 @@ button:hover .firstpage{
 
 .cources{
     margin-top: 10%;
+    background: #f1f1eee7;
 }
 .services-section {
     padding: 40px;
@@ -322,7 +327,7 @@ button:hover .firstpage{
     font-weight: bold;
     margin: 10px 0;
     margin-top: -30px;
-    color: #ffffff;
+    color: #a61212;
   }
 
   .services-header button{
@@ -405,6 +410,9 @@ button:hover .firstpage{
 
 
 @media (max-width:500px) {
+    .about{
+        border: solid transparent 2px black;
+        border-bottom-left-radius: 20px;}
     .about .names{
         margin-top: -0px;
     }
@@ -413,5 +421,30 @@ button:hover .firstpage{
     }
     .cources{
         margin-top: 10%;
+        background: #eeece5;
     }
+}
+
+
+
+
+
+.last{
+    height: 90vh;
+}
+.address{
+    background: #061ef573;
+    background: transparent;
+    /* border: 1px solid #ddd; */
+    border-radius: 10px;
+    box-shadow: 2px 4px 2px 4px rgb(0, 0, 0);
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    box-sizing: border-box;
+    width: 45%;
+    line-height: 50px;
+}
+.address p{
+    font-weight: lighter;
 }
