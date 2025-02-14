@@ -9,7 +9,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background: rgb(0, 0, 0);
+    background: #f1f1eee7;
 }
 
 
@@ -25,6 +25,11 @@ body{
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+}
+.firstpage .nav{
+    background: rgba(0, 0, 0, 0.432);
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.767);
 }
 
 .navbtn{
@@ -120,7 +125,7 @@ body{
 }
 .links2 li:hover{
     transform: scale(1.1);
-    border: #ffffffe7 solid 1px;
+    /* border: #ffffffe7 solid 1px; */
     border-radius: 5px;
 }
 
@@ -199,13 +204,17 @@ button:hover .firstpage{
 }
 
 @media (max-width: 650px){
+    .contents{
+        height: 65vh;
+        display: flex;
+    }
     .navbtn{
         display: block;
     }
     
     .firstpage{
         padding: 30px;
-        height:95vh;
+        height:75vh;
         width: 100%;
     }
     .firstpage h1{
@@ -217,10 +226,11 @@ button:hover .firstpage{
         flex-direction:row ;
         justify-content: start;
         font-size: 20px;
-        margin-top: -5px;
-    }
+        /* margin-top: -10px; */
+ }
     .firstpage .links1 i{
         font-size: 20px;
+        margin-bottom: 5px;
     }
     
     .firstpage .links2{
@@ -236,12 +246,28 @@ button:hover .firstpage{
         transition: max-height 0.3s ease-out;
         z-index: 1000;
     }
+    .firstpage .links2 li{
+        background: #ffffff;
+        border: solid;
+        border-radius: 10px;
+        animation: slideInLeft 1s ease-out;
+    }
+    @keyframes slideInLeft {
+        from {
+          transform: translateX(100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
     .links2 .active {
         max-height: 200px; /* Adjust height based on content */
-        padding: 15px; /* Adds padding during expansion */
+        padding: 15px; 
       }
     .firstpage .links2 a{
-        color: #ffffff;
+        color: #000000;
         font-size: 16px;
         transition: color 0.3s ease;
     }
@@ -262,54 +288,31 @@ button:hover .firstpage{
     width: 100%;
     color: #ffffff;
     text-align: center;
-    padding: 10%;
+    padding: 50px;
     line-height: 20px;
     transition: 0.3s;
+    border: 0 transparent solid ;
+    background: black;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
+
 .about .text{
     transition: 0.5s;
-}
-.about p{
-}
-.about #abouthead{
-    padding-bottom: 20px;
-}
-.about .names{
-    display: flex;
-    flex-direction:column;
-    justify-content:right;
-    display: none;
-    margin-top: -300px;
-    animation: slideInRight 0.3s ease-out;
-}
-.about .names ul{
-    align-items: flex-end;
-    float: right;
-    text-align: left;
-}
-.about .names ul li{
-    list-style: outside;
-    animation: ease-in-out cubic-bezier(1, 0, 0, 1);
-    transition: color 0.3s ease;
 
 }
-@keyframes slideInRight {
-    from {
-      transform: translateX(100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
+.about .text h1{
+    padding-bottom: 20px;
+}
+
   
 
 
 
 .cources{
-    margin-top: 10%;
+    padding-top: 10%;
     background: #f1f1eee7;
+    font-family: sans-serif;
 }
 .services-section {
     padding: 40px;
@@ -412,7 +415,7 @@ button:hover .firstpage{
 @media (max-width:500px) {
     .about{
         border: solid transparent 2px black;
-        border-bottom-left-radius: 20px;}
+    }
     .about .names{
         margin-top: -0px;
     }
@@ -430,31 +433,50 @@ button:hover .firstpage{
 
 
 .last{
-    height: 90vh;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.932) 50%, rgba(0, 0, 0, 0.932) 50%),
+                url(pics/ALBIRR\ LOGO\ new.png) no-repeat center center ; */
+    background: rgba(0, 0, 0, 0.904);
+    font-family: sans-serif;
+    padding:50px ;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-top: 10px solid black;
+    flex-wrap: wrap;
 }
 .last h1{
+    width: 100%;
     color: #FFFFFF;
-    
+    text-decoration: underline;
     margin: 10px;
     padding: 20px;
 }
-@media (max-width:500px) {
-    .last{
-        height: 60vh;
-    }
-}
+
 .address{
+    width: 40%;
     background: #061ef573;
     background: transparent;
     /* border: 1px solid #ddd; */
     border-radius: 10px;
-    box-shadow: 2px 4px 2px 4px rgb(0, 0, 0);
+    /* box-shadow: 2px 4px 2px 4px rgb(0, 0, 0); */
     margin: 10px;
     padding: 20px;
     color: white;
     box-sizing: border-box;
     /* width: 45%; */
     line-height: 40px;
+}
+@media (max-width:700px) {
+    .address{
+        width: 100%;
+    }
+}
+.address img{
+    width: 80%;
+    opacity: 20%;
+}
+.address h2{
+    opacity: 20%;
 }
 .address p{
     font-weight: lighter;

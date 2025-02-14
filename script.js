@@ -19,29 +19,3 @@ toggleButton.addEventListener('click', () => {
   }
 });
 
-const element = document.getElementById('text');
-const abouthead = document.getElementById('abouthead');
-const names = document.getElementById('names');
-
-window.addEventListener('scroll', () => {
-  if (window.matchMedia("(max-width: 500px)").matches) {
-    names.style.display = 'none';
-      return;
-  }else {
-      element.style.width = '100%';
-      names.style.display = 'none';
-  }
-
-  if (scrollY > 400) {
-      element.style.width = '50%';  // Apply only if width > 500px
-      names.style.display = 'block';
-      element.style.height = '60vh';
-  } else {
-      element.style.width = '100%';
-      names.style.display = 'none';
-  }
-  if (names.style.display ==='block'){
-    names.style.animation = ' none';
-  }
-});
-
