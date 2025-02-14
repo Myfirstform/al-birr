@@ -209,6 +209,7 @@ button:hover .firstpage{
         display: flex;
     }
     .firstpage .nav{
+        margin-top: -10px;
         width: 100%;
         /* background: black; */
         border: none;
@@ -249,7 +250,7 @@ button:hover .firstpage{
         display:none;
         position: fixed;
         font-size: 40px;
-        margin-top: 20%;
+        margin-top: 0%;
         transition: max-height 0.3s ease-out;
         z-index: 1000;
     }
