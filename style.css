@@ -29,7 +29,8 @@ body{
 .firstpage .nav{
     background: rgba(0, 0, 0, 0.432);
     padding-bottom: 10px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.767);
+    font-family:  Poppins, sans-serif !important;
+    /* border-bottom: 2px solid rgba(255, 255, 255, 0.767); */
 }
 
 .navbtn{
@@ -309,6 +310,10 @@ button:hover .firstpage{
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
 }
+.about .btn{
+    display: flex;
+    justify-content: center;
+}
 
 .about .text{
     transition: 0.5s;
@@ -449,7 +454,7 @@ button:hover .firstpage{
     /* background: linear-gradient(to top, rgba(0, 0, 0, 0.932) 50%, rgba(0, 0, 0, 0.932) 50%),
                 url(pics/ALBIRR\ LOGO\ new.png) no-repeat center center ; */
     background: rgba(0, 0, 0, 0.904);
-    font-family: sans-serif;
+    font-family:  Poppins, sans-serif !important;;
     padding:50px ;
     display: flex;
     flex-direction: row;
@@ -463,8 +468,32 @@ button:hover .firstpage{
     text-decoration: underline;
     margin: 10px;
     padding: 20px;
-}
 
+}
+/* //////////////////////////////////////////////////////////// */
+
+.aboutpage{
+    background: #ffffff;
+    /* width: 100%; */
+   margin: 30px;
+   padding: 30px;
+    border: solid rgba(0, 0, 0, 0.644);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.671);
+
+}
+.aboutpage h1{
+    color: rgba(255, 255, 255, 0.767);
+    background-color: brown;
+    border-radius: 2px;
+}
+.aboutpage h2{
+    margin:10px;
+    margin-left: 0;
+    color: brown;
+}
+.aboutpage b{
+    margin-top: 20px;
+}
 .address{
     width: 40%;
     background: #061ef573;
