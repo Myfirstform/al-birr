@@ -8,7 +8,8 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family:  Poppins, sans-serif !important;;
     background: #f1f1eee7;
 }
 
@@ -133,6 +134,7 @@ body{
 .firstpage h1{
     color: rgba(0, 0, 0, 0.932);
     font-size: 400%;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     line-height: 50px;
     display: block;
@@ -465,7 +467,6 @@ button:hover .firstpage{
 .last h1{
     width: 100%;
     color: #FFFFFF;
-    text-decoration: underline;
     margin: 10px;
     padding: 20px;
 
@@ -511,6 +512,16 @@ button:hover .firstpage{
 @media (max-width:700px) {
     .address{
         width: 100%;
+        text-align:left;
+        line-height: 30px;
+    }
+    .last{
+        padding: 0;
+        padding-bottom: 70px;
+    }
+    .last h1{
+        text-align: left;
+        margin-bottom: -30px;
     }
 }
 .address img{
